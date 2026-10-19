@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Shared by all our headless devices (dream2lte, mido): password-gated su,
+     root boot scripts, stay awake, bundled Termux, the VM build script. -->
+<manifest>
+  <project name="povidalo/android_vendor_headless" path="vendor/headless" revision="lineage-20.0-headless" remote="github"/>
+</manifest>

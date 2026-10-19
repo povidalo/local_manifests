@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Xiaomi Redmi Note 4 Snapdragon (mido), from zeelog lineage-20.0 (kernel 4.9.337).
+     Device tree and kernel are povidalo forks (branch lineage-20.0-headless);
+     the blobs are zeelog unchanged. The rest (hardware/qcom-caf/msm8953 and msm8996,
+     device/qcom/sepolicy-legacy-um) comes from the LineageOS manifest. -->
+<manifest>
+  <project name="povidalo/android_device_xiaomi_mido" path="device/xiaomi/mido" revision="lineage-20.0-headless" remote="github"/>
+  <project name="povidalo/android_kernel_xiaomi_mido" path="kernel/xiaomi/mido" revision="lineage-20.0-headless" remote="github" clone-depth="1"/>
+  <project name="zeelog/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="lineage-20.0" remote="github" clone-depth="1"/>
+</manifest>
